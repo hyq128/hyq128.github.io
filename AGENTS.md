@@ -5,6 +5,7 @@
 ## 项目概况
 
 - 这是一个无构建步骤的静态个人网站；网页根目录是 `public/`。
+- 后续网站更新只维护 `hyq128/hyq128.github.io` 仓库，正式地址为 <https://hyq128.github.io/>。
 - `main` 是正式版本分支，GitHub Pages 仅发布 `main` 上的 `public/`。
 - 页面内容在 `public/index.html`，样式在 `public/css/styles.css`，交互在 `public/js/main.js`。
 - 照片放在 `public/assets/photos/`。内容编辑规则见 `docs/CONTENT_GUIDE.md`。

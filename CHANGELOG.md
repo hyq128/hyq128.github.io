@@ -4,6 +4,7 @@
 
 ## 2026-09-27
 
+- 将网站唯一维护仓库迁移为 `hyq128/hyq128.github.io`，保留 `public/` 与 GitHub Actions Pages 发布流程，并更新仓库及站点说明。
 - 首次发布个人网站到 GitHub Pages，使用 `public/` 目录和 GitHub Actions 工作流。
 
 ## 2026-09-26

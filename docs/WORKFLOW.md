@@ -2,6 +2,7 @@
 
 ## 分支
 
+- 网站的唯一维护仓库是 `hyq128/hyq128.github.io`，本地 `origin` 指向 `https://github.com/hyq128/hyq128.github.io.git`；正式网站为 <https://hyq128.github.io/>。
 - `main` 始终代表当前正式版本；GitHub Pages 只从 `main` 部署。
 - 每项明确改动使用短期分支，例如 `feat/add-projects`、`fix/mobile-nav`、`docs/update-workflow`。
 - 尽量先在本地确认页面能够运行，再进行正式修改；改动后检查页面和差异。若环境无法预览，记录限制，不要宣称已验证。

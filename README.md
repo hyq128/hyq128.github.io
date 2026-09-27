@@ -2,6 +2,8 @@
 
 这是一个以长期维护为目标的静态个人网站。项目不需要构建工具或依赖安装；页面文件放在 `public/`，GitHub Pages 通过 GitHub Actions 发布该目录。
 
+正式网站为 <https://hyq128.github.io/>，后续网站更新只维护 [`hyq128/hyq128.github.io`](https://github.com/hyq128/hyq128.github.io) 仓库。
+
 ## 项目结构
 
 ```text
