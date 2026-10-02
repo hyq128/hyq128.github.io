@@ -62,8 +62,11 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
 .about-copy { max-width: 610px; }
 .about h1 { margin: 0; font-family: var(--cn-serif); font-size: clamp(28px, 2.6vw, 36px); font-weight: 400; letter-spacing: -.04em; line-height: 1.3; }
 .about h1 em { color: #252122; }
-.about-role { margin: 12px 0 0; color: #2c2626; font-family: var(--serif); font-size: clamp(46px, 5vw, 68px); font-weight: 500; letter-spacing: -.035em; line-height: .98; }
-.about-role .role-second { display: block; margin-top: 4px; padding-left: clamp(40px, 4vw, 56px); color: #a75e70; font-style: italic; }
+.about-role { display: grid; grid-template-columns: max-content max-content; column-gap: .18em; row-gap: 4px; width: max-content; max-width: 100%; margin: 12px 0 0; color: #2c2626; font-family: var(--serif); font-size: clamp(46px, 5vw, 68px); font-weight: 500; letter-spacing: -.035em; line-height: .98; }
+.about-role .role-product { grid-column: 1; grid-row: 1; }
+.about-role .role-manager { grid-column: 2; grid-row: 1; }
+.about-role .role-dot { grid-column: 1; grid-row: 2; justify-self: end; margin-right: .3em; color: #a75e70; font-style: italic; }
+.about-role .role-project { grid-column: 2; grid-row: 2; color: #a75e70; font-style: italic; white-space: nowrap; }
 .about-text { max-width: 590px; margin: 28px 0 0; color: #57514f; font-size: 15px; line-height: 1.8; }
 .about-education { color: var(--ink); font-size: 16px; font-weight: 500; }
 .about-experience { margin-top: 12px; }
@@ -233,6 +236,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
   .projects-grid { grid-template-columns: 1fr; }
   .about { min-height: auto; padding-top: 62px; padding-bottom: 106px; }
   .about-grid { grid-template-columns: minmax(0, 1.22fr) minmax(220px, .78fr); gap: 50px; }
+  .about-role { font-size: clamp(38px, 4.4vw, 46px); }
   .internships { padding: 0; }
   .internships-sticky { padding: 0; }
   .project-copy { padding: 24px; }
@@ -284,8 +288,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
   .about .section-kicker { margin-bottom: 26px; }
   .about-copy { padding-inline: 4px; }
   .about h1 { font-size: clamp(28px, 7vw, 34px); }
-  .about-role { margin-top: 10px; font-size: clamp(36px, 10.3vw, 48px); }
-  .about-role .role-second { padding-left: 22px; }
+  .about-role { margin-top: 10px; font-size: clamp(30px, 8.5vw, 42px); }
   .about-text { margin-top: 22px; font-size: 15px; line-height: 1.8; }
   .about-education { font-size: 16px; }
   .about-experience { margin-top: 12px; }
