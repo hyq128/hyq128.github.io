@@ -59,9 +59,12 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
 .portrait-corner { position: absolute; right: -20px; bottom: 22px; padding: 12px 16px; border: 1px solid var(--line-rose); color: var(--rose); background: var(--paper); font-family: var(--cn-serif); font-size: 11px; line-height: 1.8; }
 .about-copy { max-width: 610px; }
 .about h1 { margin: 0; font-family: var(--cn-serif); font-size: clamp(50px, 7vw, 84px); font-weight: 400; letter-spacing: -.055em; line-height: 1.2; }
-.about-role { margin: 8px 0 0; color: var(--rose); font-family: var(--mono); font-size: 11px; letter-spacing: .11em; }
-.about-text { max-width: 540px; margin: 24px 0 0; color: #4b4b4b; font-size: 14px; line-height: 2; }
-.about-text.muted { margin-top: 9px; color: #858080; font-size: 13px; }
+.about-role { margin: 10px 0 0; color: #a64f6d; font-family: var(--sans); font-size: clamp(14px, 1.25vw, 17px); font-weight: 500; letter-spacing: .02em; }
+.about-text { max-width: 590px; margin: 24px 0 0; color: #4b4b4b; font-size: 16px; line-height: 1.85; }
+.about-education { color: var(--ink); font-size: 17px; font-weight: 500; }
+.about-experience { margin-top: 12px; }
+.about-experience a { color: #9e4d6a; font-weight: 600; text-decoration: underline; text-decoration-color: rgba(158, 77, 106, .55); text-underline-offset: .2em; }
+.about-experience a:hover, .about-experience a:focus-visible { color: #78324d; text-decoration-color: currentColor; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
 .tag-list span { padding: 8px 11px; border: 1px solid rgba(144, 108, 112, .25); color: #716263; font-family: var(--mono); font-size: 9px; letter-spacing: .04em; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 29px; }
@@ -272,9 +275,10 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
   .about-grid { grid-template-columns: 1fr; gap: 38px; }
   .about-copy { order: -1; padding-inline: 4px; }
   .about h1 { font-size: clamp(48px, 13vw, 66px); }
-  .about-role { margin-top: 6px; font-size: 9px; }
-  .about-text { margin-top: 17px; font-size: 12px; }
-  .about-text.muted { font-size: 11px; }
+  .about-role { margin-top: 8px; font-size: 14px; }
+  .about-text { margin-top: 18px; font-size: 15px; line-height: 1.8; }
+  .about-education { font-size: 16px; }
+  .about-experience { margin-top: 12px; }
   .tag-list { gap: 6px; margin-top: 20px; }
   .tag-list span { padding: 7px 9px; font-size: 8px; }
   .hero-actions { align-items: stretch; flex-direction: column; max-width: 280px; margin-top: 22px; }
