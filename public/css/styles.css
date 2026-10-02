@@ -51,8 +51,8 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
 .section-kicker span:last-child { color: #8a8a8a; }
 
 .about { position: relative; display: flex; min-height: min(820px, calc(100svh - 72px)); flex-direction: column; justify-content: center; padding-top: 72px; padding-bottom: 110px; }
-.about-grid { display: grid; grid-template-columns: minmax(280px, .78fr) minmax(0, 1.22fr); align-items: center; gap: clamp(54px, 9vw, 132px); }
-.portrait-card { position: relative; width: min(100%, 400px); aspect-ratio: 4 / 5; margin: 0; padding: 9px; border: 1px solid rgba(144, 108, 112, .2); background: rgba(255, 253, 249, .72); }
+.about-grid { display: grid; grid-template-columns: minmax(0, 1.22fr) minmax(280px, .78fr); align-items: center; gap: clamp(54px, 9vw, 132px); }
+.portrait-card { position: relative; width: min(100%, 400px); aspect-ratio: 4 / 5; margin: 0 0 0 auto; padding: 9px; border: 1px solid rgba(144, 108, 112, .2); background: rgba(255, 253, 249, .72); }
 .portrait-art { position: relative; display: grid; width: 100%; height: 100%; place-items: center; overflow: hidden; background: #f2e6e3; }
 .portrait-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 27%; }
 .portrait-caption { position: absolute; right: 12px; bottom: 12px; z-index: 1; padding: 6px 8px; color: var(--rose); background: rgba(255, 253, 249, .9); font-size: 8px; }
@@ -224,7 +224,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
   .section-pad { padding: 88px 8vw; }
   .projects-grid { grid-template-columns: 1fr; }
   .about { min-height: auto; padding-top: 62px; padding-bottom: 106px; }
-  .about-grid { grid-template-columns: minmax(220px, .78fr) minmax(0, 1.22fr); gap: 50px; }
+  .about-grid { grid-template-columns: minmax(0, 1.22fr) minmax(220px, .78fr); gap: 50px; }
   .internships { padding: 0; }
   .internships-sticky { padding: 0; }
   .project-copy { padding: 24px; }
@@ -233,7 +233,6 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
 
 @media (max-width: 820px) {
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
-  .about-copy { order: -1; }
   .portrait-card { width: min(78%, 340px); margin-inline: auto; }
   .circular-gallery { --gallery-radius: 340px; }
 }
@@ -274,7 +273,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
   .section-kicker { gap: 9px; margin-bottom: 32px; font-size: 8px; }
   .section-kicker i { width: 26px; }
   .about-grid { grid-template-columns: 1fr; gap: 38px; }
-  .about-copy { order: -1; padding-inline: 4px; }
+  .about-copy { padding-inline: 4px; }
   .about h1 { font-size: clamp(40px, 10vw, 52px); }
   .about-role { margin-top: 8px; font-size: 17px; }
   .about-text { margin-top: 18px; font-size: 15px; line-height: 1.8; }
