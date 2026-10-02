@@ -58,7 +58,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
 .portrait-caption { position: absolute; right: 12px; bottom: 12px; z-index: 1; padding: 6px 8px; color: var(--rose); background: rgba(255, 253, 249, .9); font-size: 8px; }
 .portrait-corner { position: absolute; right: -20px; bottom: 22px; padding: 12px 16px; border: 1px solid var(--line-rose); color: var(--rose); background: var(--paper); font-family: var(--cn-serif); font-size: 11px; line-height: 1.8; }
 .about-copy { max-width: 610px; }
-.about h1 { margin: 0; font-family: var(--cn-serif); font-size: clamp(50px, 7vw, 84px); font-weight: 400; letter-spacing: -.055em; line-height: 1.2; }
+.about h1 { margin: 0; font-family: var(--cn-serif); font-size: clamp(42px, 5vw, 60px); font-weight: 400; letter-spacing: -.055em; line-height: 1.2; }
 .about h1 em { color: #252122; }
 .about-role { margin: 10px 0 0; color: #a64f6d; font-family: var(--sans); font-size: clamp(18px, 1.7vw, 22px); font-weight: 500; letter-spacing: .02em; }
 .about-text { max-width: 590px; margin: 24px 0 0; color: #4b4b4b; font-size: 16px; line-height: 1.85; }
@@ -275,7 +275,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
   .section-kicker i { width: 26px; }
   .about-grid { grid-template-columns: 1fr; gap: 38px; }
   .about-copy { order: -1; padding-inline: 4px; }
-  .about h1 { font-size: clamp(48px, 13vw, 66px); }
+  .about h1 { font-size: clamp(40px, 10vw, 52px); }
   .about-role { margin-top: 8px; font-size: 17px; }
   .about-text { margin-top: 18px; font-size: 15px; line-height: 1.8; }
   .about-education { font-size: 16px; }
