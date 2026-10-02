@@ -59,7 +59,8 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
 .portrait-corner { position: absolute; right: -20px; bottom: 22px; padding: 12px 16px; border: 1px solid var(--line-rose); color: var(--rose); background: var(--paper); font-family: var(--cn-serif); font-size: 11px; line-height: 1.8; }
 .about-copy { max-width: 610px; }
 .about h1 { margin: 0; font-family: var(--cn-serif); font-size: clamp(50px, 7vw, 84px); font-weight: 400; letter-spacing: -.055em; line-height: 1.2; }
-.about-role { margin: 10px 0 0; color: #a64f6d; font-family: var(--sans); font-size: clamp(14px, 1.25vw, 17px); font-weight: 500; letter-spacing: .02em; }
+.about h1 em { color: #252122; }
+.about-role { margin: 10px 0 0; color: #a64f6d; font-family: var(--sans); font-size: clamp(18px, 1.7vw, 22px); font-weight: 500; letter-spacing: .02em; }
 .about-text { max-width: 590px; margin: 24px 0 0; color: #4b4b4b; font-size: 16px; line-height: 1.85; }
 .about-education { color: var(--ink); font-size: 17px; font-weight: 500; }
 .about-experience { margin-top: 12px; }
@@ -275,7 +276,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
   .about-grid { grid-template-columns: 1fr; gap: 38px; }
   .about-copy { order: -1; padding-inline: 4px; }
   .about h1 { font-size: clamp(48px, 13vw, 66px); }
-  .about-role { margin-top: 8px; font-size: 14px; }
+  .about-role { margin-top: 8px; font-size: 17px; }
   .about-text { margin-top: 18px; font-size: 15px; line-height: 1.8; }
   .about-education { font-size: 16px; }
   .about-experience { margin-top: 12px; }
