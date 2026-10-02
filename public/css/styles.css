@@ -64,7 +64,7 @@ h1 em, h2 em, h3 em { display: inline-block; color: var(--rose); font-family: va
 .about-text { max-width: 590px; margin: 24px 0 0; color: #4b4b4b; font-size: 16px; line-height: 1.85; }
 .about-education { color: var(--ink); font-size: 17px; font-weight: 500; }
 .about-experience { margin-top: 12px; }
-.about-experience a { color: #252122; font-weight: 600; text-decoration: underline; text-decoration-color: rgba(37, 33, 34, .55); text-underline-offset: .2em; }
+.about-experience a { color: #252122; text-decoration: underline; text-decoration-color: rgba(37, 33, 34, .55); text-underline-offset: .2em; }
 .about-experience a:hover, .about-experience a:focus-visible { text-decoration-color: currentColor; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
 .tag-list span { padding: 8px 11px; border: 1px solid rgba(144, 108, 112, .25); border-radius: 8px; color: #716263; font-family: var(--mono); font-size: 9px; letter-spacing: .04em; }
