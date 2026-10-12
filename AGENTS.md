@@ -7,7 +7,7 @@
 - 这是一个无构建步骤的静态个人网站；网页根目录是 `public/`。
 - 后续网站更新只维护 `hyq128/hyq128.github.io` 仓库，正式地址为 <https://hyq128.github.io/>。
 - `main` 是正式版本分支，GitHub Pages 仅发布 `main` 上的 `public/`。
-- 首页内容在 `public/index.html`，全站样式在 `public/css/styles.css`，交互在 `public/js/main.js`。Vibe Coding 作品页为 `public/vibe-coding.html`，专用样式与截图预览交互分别为 `public/css/vibe-coding.css`、`public/js/vibe-coding.js`；项目截图放在 `public/assets/projects/`。
+- 首页内容在 `public/index.html`，全站样式在 `public/css/styles.css`，交互在 `public/js/main.js`。Vibe Coding 作品完整展示于首页 `#ai-work` 区域，`public/vibe-coding.html` 仅将旧链接重定向至该区域；专用样式与截图预览交互分别为 `public/css/vibe-coding.css`、`public/js/vibe-coding.js`；项目截图放在 `public/assets/projects/`。
 - 照片放在 `public/assets/photos/`。内容编辑规则见 `docs/CONTENT_GUIDE.md`。
 - 页面使用奶油白、柔和粉色强调和清晰的中文衬线标题；保持专业、可读、响应式。不要恢复用户已要求替换的粗笔刷字体。
 
@@ -17,7 +17,7 @@
 - 首页内容顺序为“关于 → 经历 → AI 作品 → 项目 → 文章”。经历区将教育与实习放在同一个 3D 环形画廊和成长轨迹中，使用不同标签区分。
 - AI 使用和快速学习是个人特质。AI 作品展示她用 AI 提升效率、把想法做成小工具或产品的实践；具体案例由用户后续提供或确认，不得虚构。
 - 不要擅自替用户创造核心定位口号；优先采用用户确认的事实和表达。如需提出新的定位句，先在讨论中确认。
-- 实习经历每段突出 1–2 项有材料支持的关键工作或成果。首页 AI 作品区展示简历排版器摘要，突出用户确认的岗位 JD 分析与 AI 简历修改功能，并链接到独立 Vibe Coding 作品页；作品页使用真实截图与简短介绍，末尾保留“敬请期待”卡片。未提供 GitHub 仓库地址时按钮仅显示“GitHub”并保持禁用，不使用无效链接。文章区显示准备中，不放虚构项目、文章或指标。
+- 实习经历每段突出 1–2 项有材料支持的关键工作或成果。首页 AI 作品区完整展示 Vibe Coding 项目，突出用户确认的岗位 JD 分析与 AI 简历修改功能。作品区至少占一屏、保留充分留白并自然向下展开，不通过“查看作品”跳转另一页；使用真实截图与简短介绍，末尾保留“敬请期待”卡片。未提供 GitHub 仓库地址时按钮仅显示“GitHub”并保持禁用，不使用无效链接。文章区显示准备中，不放虚构项目、文章或指标。
 
 ## 修改规则
 
